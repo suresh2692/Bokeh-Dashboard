@@ -5,9 +5,11 @@ Usage:-
 
 `docker build -t <bokeh-db>`
     
-`docker run -d bokeh-db`
+`docker run -d -p 5959:5959 bokeh-db`
 
+URL: [link](http://127.0.0.1:5959)
 
+Dashboard
 1. Year-wise sales
 ![Yearwise sales](images/1_year.jpg "Yearwise sales")
 
